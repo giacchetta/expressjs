@@ -16,9 +16,9 @@ app.get("/basic", (request, response) => {
 });
 
 app.get("/template", (request, response) => {
-      response.render('test', {
-        name: "Luciano"
-      });
+    response.render('test', {
+        name: "Luciano"
+    });
 });
 
 const bodyParser = require("body-parser");
